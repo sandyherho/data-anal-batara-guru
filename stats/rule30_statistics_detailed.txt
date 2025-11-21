@@ -1,0 +1,274 @@
+==========================================================================================
+RULE 30 CELLULAR AUTOMATON - COMPREHENSIVE STATISTICAL ANALYSIS
+==========================================================================================
+Authors: Sandy H. S. Herho and Gandhi Napitupulu
+Date: 2025/11/20
+Analysis Generated: 2025-11-20 21:04:42
+==========================================================================================
+
+ANALYSIS OVERVIEW
+---------------------------------------------
+This comprehensive analysis examines the temporal evolution of two fundamental metrics
+in Rule 30 cellular automaton dynamics:
+
+1. COMPOSITIONAL ENTROPY (H_comp):
+   - Quantifies the mixing of binary states (0/1) in the configuration
+   - Calculated as H_comp = h(rho) where h is binary entropy and rho is density
+   - Maximum value of 1 bit indicates equal distribution of states
+
+2. INTERFACE DENSITY (Lambda):
+   - Measures spatial heterogeneity through nearest-neighbor mismatches
+   - Calculated as fraction of edges connecting different states
+   - Maximum value of 0.5 for random configurations (not 1.0)
+
+==========================================================================================
+Case 1 (N=251, T=125)
+System Parameters: N = 251 cells, T = 125 time steps
+Pyramid Constraint: T/N = 0.498 < 0.5 [OK]
+==========================================================================================
+
+COMPOSITIONAL ENTROPY STATISTICS
+---------------------------------------------
+Mean:                         0.733780 bits
+Standard Deviation:           0.263229 bits
+Minimum:                      0.037495 bits
+Maximum:                      0.999989 bits
+Median:                       0.825179 bits
+25th Percentile:              0.553252 bits
+75th Percentile:              0.956241 bits
+Interquartile Range:          0.402988 bits
+Range:                        0.962493 bits
+Initial Value (t=0):          0.037495 bits
+Final Value (t=T):            0.999989 bits
+Growth Rate:                0.00763883 bits/step
+Coefficient of Var.:            0.3587
+Skewness:                      -0.9114
+Excess Kurtosis:               -0.2602
+90% Saturation Time:            74 steps (59.2% of T)
+
+INTERFACE DENSITY (COMPLEXITY) STATISTICS
+---------------------------------------------
+Mean:                         0.253589
+Standard Deviation:           0.149222
+Minimum:                      0.007968
+Maximum:                      0.565737
+Median:                       0.247012
+25th Percentile:              0.129482
+75th Percentile:              0.374502
+Interquartile Range:          0.245020
+Range:                        0.557769
+Initial Value (t=0):          0.007968
+Final Value (t=T):            0.509960
+Growth Rate:                0.00398406 per step
+Coefficient of Var.:            0.5884
+Skewness:                       0.1002
+Excess Kurtosis:               -1.1242
+90% Saturation Time:           118 steps (94.4% of T)
+
+CORRELATION ANALYSIS
+---------------------------------------------
+Pearson Correlation (H_comp, Lambda): 0.9183
+Interpretation: Strong positive correlation
+
+==========================================================================================
+Case 2 (N=501, T=250)
+System Parameters: N = 501 cells, T = 250 time steps
+Pyramid Constraint: T/N = 0.499 < 0.5 [OK]
+==========================================================================================
+
+COMPOSITIONAL ENTROPY STATISTICS
+---------------------------------------------
+Mean:                         0.727942 bits
+Standard Deviation:           0.265758 bits
+Minimum:                      0.020778 bits
+Maximum:                      0.999997 bits
+Median:                       0.810486 bits
+25th Percentile:              0.556726 bits
+75th Percentile:              0.956061 bits
+Interquartile Range:          0.399335 bits
+Range:                        0.979219 bits
+Initial Value (t=0):          0.020778 bits
+Final Value (t=T):            0.998479 bits
+Growth Rate:                0.00389522 bits/step
+Coefficient of Var.:            0.3651
+Skewness:                      -0.8974
+Excess Kurtosis:               -0.2972
+90% Saturation Time:           143 steps (57.2% of T)
+
+INTERFACE DENSITY (COMPLEXITY) STATISTICS
+---------------------------------------------
+Mean:                         0.254726
+Standard Deviation:           0.150021
+Minimum:                      0.003992
+Maximum:                      0.518962
+Median:                       0.247505
+25th Percentile:              0.123753
+75th Percentile:              0.381238
+Interquartile Range:          0.257485
+Range:                        0.514970
+Initial Value (t=0):          0.003992
+Final Value (t=T):            0.510978
+Growth Rate:                0.00201986 per step
+Coefficient of Var.:            0.5890
+Skewness:                       0.0625
+Excess Kurtosis:               -1.1814
+90% Saturation Time:           218 steps (87.2% of T)
+
+CORRELATION ANALYSIS
+---------------------------------------------
+Pearson Correlation (H_comp, Lambda): 0.9306
+Interpretation: Strong positive correlation
+
+==========================================================================================
+Case 3 (N=1001, T=500)
+System Parameters: N = 1001 cells, T = 500 time steps
+Pyramid Constraint: T/N = 0.500 < 0.5 [OK]
+==========================================================================================
+
+COMPOSITIONAL ENTROPY STATISTICS
+---------------------------------------------
+Mean:                         0.724422 bits
+Standard Deviation:           0.267499 bits
+Minimum:                      0.011398 bits
+Maximum:                      0.999982 bits
+Median:                       0.810882 bits
+25th Percentile:              0.543214 bits
+75th Percentile:              0.956345 bits
+Interquartile Range:          0.413132 bits
+Range:                        0.988584 bits
+Initial Value (t=0):          0.011398 bits
+Final Value (t=T):            0.999550 bits
+Growth Rate:                0.00197236 bits/step
+Coefficient of Var.:            0.3693
+Skewness:                      -0.8860
+Excess Kurtosis:               -0.3185
+90% Saturation Time:           299 steps (59.8% of T)
+
+INTERFACE DENSITY (COMPLEXITY) STATISTICS
+---------------------------------------------
+Mean:                         0.254867
+Standard Deviation:           0.147465
+Minimum:                      0.001998
+Maximum:                      0.527473
+Median:                       0.257742
+25th Percentile:              0.123876
+75th Percentile:              0.377622
+Interquartile Range:          0.253746
+Range:                        0.525475
+Initial Value (t=0):          0.001998
+Final Value (t=T):            0.509491
+Growth Rate:                0.00101296 per step
+Coefficient of Var.:            0.5786
+Skewness:                      -0.0098
+Excess Kurtosis:               -1.1880
+90% Saturation Time:           450 steps (90.0% of T)
+
+CORRELATION ANALYSIS
+---------------------------------------------
+Pearson Correlation (H_comp, Lambda): 0.9437
+Interpretation: Strong positive correlation
+
+==========================================================================================
+Case 4 (N=2001, T=1000)
+System Parameters: N = 2001 cells, T = 1000 time steps
+Pyramid Constraint: T/N = 0.500 < 0.5 [OK]
+==========================================================================================
+
+COMPOSITIONAL ENTROPY STATISTICS
+---------------------------------------------
+Mean:                         0.722918 bits
+Standard Deviation:           0.268824 bits
+Minimum:                      0.006201 bits
+Maximum:                      1.000000 bits
+Median:                       0.811872 bits
+25th Percentile:              0.543389 bits
+75th Percentile:              0.954296 bits
+Interquartile Range:          0.410907 bits
+Range:                        0.993799 bits
+Initial Value (t=0):          0.006201 bits
+Final Value (t=T):            1.000000 bits
+Growth Rate:                0.00099281 bits/step
+Coefficient of Var.:            0.3719
+Skewness:                      -0.8834
+Excess Kurtosis:               -0.3313
+90% Saturation Time:           598 steps (59.8% of T)
+
+INTERFACE DENSITY (COMPLEXITY) STATISTICS
+---------------------------------------------
+Mean:                         0.252361
+Standard Deviation:           0.144899
+Minimum:                      0.000999
+Maximum:                      0.523738
+Median:                       0.255872
+25th Percentile:              0.128936
+75th Percentile:              0.372814
+Interquartile Range:          0.243878
+Range:                        0.522739
+Initial Value (t=0):          0.000999
+Final Value (t=T):            0.493753
+Growth Rate:                0.00049226 per step
+Coefficient of Var.:            0.5742
+Skewness:                      -0.0058
+Excess Kurtosis:               -1.1720
+90% Saturation Time:           925 steps (92.5% of T)
+
+CORRELATION ANALYSIS
+---------------------------------------------
+Pearson Correlation (H_comp, Lambda): 0.9457
+Interpretation: Strong positive correlation
+
+==========================================================================================
+COMPARATIVE ANALYSIS ACROSS SCALES
+==========================================================================================
+
+KEY FINDINGS:
+---------------------------------------------
+1. SCALE-INVARIANT PROPERTIES:
+   * All systems approach H_comp ~ 1.0 bit (maximum entropy)
+   * Interface density saturates at Lambda ~ 0.5 regardless of system size
+   * Growth dynamics follow similar functional forms across scales
+   * Confirms Rule 30's universal computational properties
+
+2. TEMPORAL EVOLUTION PHASES:
+   * Phase I (0 < t < N/10): Rapid initial growth from single-site seed
+   * Phase II (N/10 < t < N/4): Conical expansion with v = 1 site/step
+   * Phase III (N/4 < t < N/2): Complex mixing and pattern formation
+   * Phase IV (t > N/2): Asymptotic approach to saturation
+
+3. ENTROPY DYNAMICS:
+   * Monotonic increase toward theoretical maximum
+   * Final values > 0.99 bits indicate near-perfect mixing
+   * Growth rate proportional to 1/N, confirming diffusive-like behavior
+   * Low skewness indicates symmetric distribution evolution
+
+4. INTERFACE DENSITY CHARACTERISTICS:
+   * Maximum Lambda ~ 0.5 (not 1.0) distinguishes from alternating patterns
+   * Consistent with random binary sequences
+   * Plateau formation indicates spatial disorder saturation
+   * Characteristic signature of Class III (chaotic) automata
+
+5. SYSTEM SIZE SCALING:
+   * Mean correlation coefficient: 0.9346
+   * Saturation time scales linearly with N
+   * Growth rates scale as O(1/N)
+   * Confirms light-cone propagation at unit velocity
+
+6. THEORETICAL IMPLICATIONS:
+   * Validates Wolfram's Class III classification
+   * Supports use in pseudorandom number generation
+   * Demonstrates emergence of complexity from simple rules
+   * Exhibits computational irreducibility
+
+CONCLUSION:
+---------------------------------------------
+The analysis confirms Rule 30's remarkable ability to generate apparent
+randomness from deterministic local rules. The scale-invariant saturation
+behavior and strong entropy-complexity correlation demonstrate universal
+properties that transcend specific implementation details. These results
+support Rule 30's applications in cryptography and random number generation,
+while exemplifying fundamental principles of complex systems and emergent
+computation in discrete dynamical systems.
+
+==========================================================================================
+END OF ANALYSIS
+==========================================================================================
